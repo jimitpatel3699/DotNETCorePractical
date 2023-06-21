@@ -60,6 +60,7 @@ namespace Practical17.Controllers
 
                 if (result.Succeeded)
                 {
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Students");
                 }
