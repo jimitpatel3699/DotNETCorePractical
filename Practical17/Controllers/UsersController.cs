@@ -9,11 +9,13 @@ namespace Practical17.Controllers
     {
         private readonly UserManager<Users> _userManager;
         private readonly SignInManager<Users> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public UsersController(UserManager<Users> userManager, SignInManager<Users> signInManager)
+        public UsersController(UserManager<Users> userManager, SignInManager<Users> signInManager, RoleManager<IdentityRole> roleManager)
         {
             this._userManager = userManager;
             this._signInManager = signInManager;
+            this._roleManager = roleManager;
         }
         [HttpGet]
         [AllowAnonymous]
@@ -60,9 +62,8 @@ namespace Practical17.Controllers
 
                 if (result.Succeeded)
                 {
-
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Students");
+                    return RedirectToAction("Index", "Students"); 
                 }
                 ModelState.AddModelError(nameof(register.ConfirmPassword), result.Errors.Select(error => error.Description).Aggregate((i, j) => $"{i}, {j}"));
             }
