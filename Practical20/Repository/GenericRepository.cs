@@ -28,7 +28,6 @@ namespace Practical20.Repository
         {
             await _dbContext.Set<T>().AddAsync(entity);
         }
-        [AutoValidateAntiforgeryToken]
         public void Delete(T entity)
         {
             _dbContext.Set<T>().Remove(entity);
