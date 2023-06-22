@@ -7,11 +7,11 @@ namespace Practical18.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentsController : ControllerBase
+    public class StudentController : ControllerBase
     {
         private readonly IstudentRepository _studentRepository;
 
-        public StudentsController(IstudentRepository studentRepository)
+        public StudentController(IstudentRepository studentRepository)
         {
             _studentRepository = studentRepository;
         }
@@ -22,7 +22,7 @@ namespace Practical18.Controllers
             var student = _studentRepository.GetAllStudents();
             return Ok(student);
         }
-        [HttpGet("{id}")]
+        [HttpGet("ShowSingleStudent/{id}")]
         public IActionResult ShowSingleStudent(int? id)
         {
             var student = _studentRepository.GetSingleStudent(id);
