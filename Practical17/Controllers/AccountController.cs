@@ -5,13 +5,13 @@ using Practical17.Models;
 
 namespace Practical17.Controllers
 {
-    public class UsersController : Controller
+    public class AccountController : Controller
     {
         private readonly UserManager<Users> _userManager;
         private readonly SignInManager<Users> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public UsersController(UserManager<Users> userManager, SignInManager<Users> signInManager, RoleManager<IdentityRole> roleManager)
+        public AccountController(UserManager<Users> userManager, SignInManager<Users> signInManager, RoleManager<IdentityRole> roleManager)
         {
             this._userManager = userManager;
             this._signInManager = signInManager;

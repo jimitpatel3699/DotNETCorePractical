@@ -14,6 +14,7 @@ namespace Practical17
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
             builder.Services.AddDbContext<ApplicationDbContext>(
                 options=>options.UseSqlServer(
                     builder.Configuration.GetConnectionString("DefaultConnection")));
