@@ -1,0 +1,317 @@
+22-Jun-2023 13:40:17.280 +05:30 [INF] HTTP GET / responded 200 in 199.9321 ms
+22-Jun-2023 13:40:17.345 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.4408 ms
+22-Jun-2023 13:40:17.367 +05:30 [INF] HTTP GET /css/site.css responded 200 in 39.2730 ms
+22-Jun-2023 13:40:17.394 +05:30 [INF] HTTP GET /js/site.js responded 200 in 4.1107 ms
+22-Jun-2023 13:40:17.443 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 66.2671 ms
+22-Jun-2023 13:40:17.444 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 117.3659 ms
+22-Jun-2023 13:40:17.468 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 98.8888 ms
+22-Jun-2023 13:40:17.598 +05:30 [INF] HTTP GET /favicon.ico responded 200 in 36.4049 ms
+22-Jun-2023 13:40:50.928 +05:30 [INF] HTTP GET / responded 200 in 186.5376 ms
+22-Jun-2023 13:40:50.983 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.4973 ms
+22-Jun-2023 13:41:11.298 +05:30 [INF] HTTP GET / responded 200 in 191.1719 ms
+22-Jun-2023 13:41:11.351 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.5032 ms
+22-Jun-2023 13:41:17.762 +05:30 [INF] HTTP GET / responded 200 in 12.9114 ms
+22-Jun-2023 13:41:17.787 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.1601 ms
+22-Jun-2023 13:41:18.536 +05:30 [INF] HTTP GET /Home/Privacy responded 200 in 6.7574 ms
+22-Jun-2023 13:41:18.561 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.3601 ms
+22-Jun-2023 13:41:20.082 +05:30 [INF] HTTP GET / responded 200 in 1.1866 ms
+22-Jun-2023 13:41:20.112 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.6727 ms
+22-Jun-2023 13:43:34.520 +05:30 [INF] HTTP GET / responded 200 in 196.9718 ms
+22-Jun-2023 13:43:34.612 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 4.1281 ms
+22-Jun-2023 13:43:36.592 +05:30 [ERR] System.Exception: Global Exception Testing
+   at Practical20.Controllers.StudentController.GetAllStudents() in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\Controllers\StudentController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 13:43:36.676 +05:30 [ERR] HTTP GET /Student/GetAllStudents responded 500 in 595.1133 ms
+22-Jun-2023 13:45:11.233 +05:30 [INF] HTTP GET / responded 200 in 238.8863 ms
+22-Jun-2023 13:45:11.303 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.4726 ms
+22-Jun-2023 13:45:13.206 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3061 ms
+22-Jun-2023 13:45:13.213 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 270.8529 ms
+22-Jun-2023 13:45:13.271 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 66.4907 ms
+22-Jun-2023 13:45:13.275 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 63.8618 ms
+22-Jun-2023 13:45:15.395 +05:30 [ERR] System.Exception: Global Exception Testing
+   at Practical20.Controllers.StudentController.GetAllStudents() in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\Controllers\StudentController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 13:45:15.494 +05:30 [ERR] HTTP GET /Student/GetAllStudents responded 500 in 232.4988 ms
+22-Jun-2023 13:45:20.695 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 11.1431 ms
+22-Jun-2023 13:45:36.283 +05:30 [INF] HTTP POST /Student/AddStudent responded 302 in 896.8246 ms
+22-Jun-2023 13:45:36.334 +05:30 [ERR] System.Exception: Global Exception Testing
+   at Practical20.Controllers.StudentController.GetAllStudents() in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\Controllers\StudentController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 13:45:36.335 +05:30 [ERR] HTTP GET /Student/GetAllStudents responded 500 in 46.6194 ms
+22-Jun-2023 13:45:55.757 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 289.5242 ms
+22-Jun-2023 13:45:55.783 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.0954 ms
+22-Jun-2023 13:45:55.794 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 3.1427 ms
+22-Jun-2023 13:46:09.632 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 16.1440 ms
+22-Jun-2023 13:46:09.665 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2478 ms
+22-Jun-2023 13:46:10.492 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 25.9560 ms
+22-Jun-2023 13:46:10.513 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 2.7460 ms
+22-Jun-2023 13:46:10.514 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2236 ms
+22-Jun-2023 14:17:42.782 +05:30 [INF] HTTP GET / responded 200 in 226.2864 ms
+22-Jun-2023 14:17:42.877 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 26.5350 ms
+22-Jun-2023 14:17:44.776 +05:30 [ERR] System.Exception: Global Exception Testing
+   at Practical20.Controllers.StudentController.GetAllStudents() in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\Controllers\StudentController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 14:17:44.860 +05:30 [ERR] HTTP GET /Student/GetAllStudents responded 500 in 343.1540 ms
+22-Jun-2023 14:19:21.949 +05:30 [INF] HTTP GET / responded 200 in 173.9325 ms
+22-Jun-2023 14:19:22.015 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 6.2406 ms
+22-Jun-2023 14:19:23.892 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.5852 ms
+22-Jun-2023 14:19:23.897 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 237.4471 ms
+22-Jun-2023 14:30:07.250 +05:30 [INF] HTTP GET / responded 200 in 217.3451 ms
+22-Jun-2023 14:30:07.367 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 16.9342 ms
+22-Jun-2023 14:30:22.900 +05:30 [ERR] System.Exception: Object reference not null Error
+   at Practical20.Controllers.StudentController.AddStudent(Nullable`1 id) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\Controllers\StudentController.cs:line 27
+   at lambda_method18(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context) in C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical20\GlobalExceptions\ExceptionHandlingMiddleware.cs:line 20
+22-Jun-2023 14:30:22.996 +05:30 [ERR] HTTP GET /Student/AddStudent responded 500 in 13412.1495 ms
+22-Jun-2023 14:54:36.347 +05:30 [INF] HTTP GET / responded 200 in 196.4517 ms
+22-Jun-2023 14:54:36.426 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.2830 ms
+22-Jun-2023 14:54:39.387 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 1224.1190 ms
+22-Jun-2023 14:54:39.389 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3400 ms
+22-Jun-2023 14:54:45.813 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 177.9683 ms
+22-Jun-2023 14:54:45.852 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.5851 ms
+22-Jun-2023 14:54:45.853 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.9757 ms
+22-Jun-2023 14:54:47.301 +05:30 [INF] HTTP GET /Student/AddStudent/1 responded 200 in 30.5188 ms
+22-Jun-2023 14:54:47.335 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4043 ms
+22-Jun-2023 14:54:59.998 +05:30 [INF] HTTP POST /Student/AddStudent/1 responded 302 in 197.5314 ms
+22-Jun-2023 14:55:00.008 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 4.8297 ms
+22-Jun-2023 14:55:00.049 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.1687 ms
+22-Jun-2023 14:55:00.051 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.3445 ms
+22-Jun-2023 14:55:53.632 +05:30 [INF] HTTP GET /Student/AddStudent/2 responded 200 in 18.2205 ms
+22-Jun-2023 14:55:53.668 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2083 ms
+22-Jun-2023 14:58:48.219 +05:30 [INF] HTTP GET / responded 200 in 196.5065 ms
+22-Jun-2023 14:58:48.284 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 4.8842 ms
+22-Jun-2023 14:58:50.785 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 1116.7584 ms
+22-Jun-2023 14:58:50.795 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.8586 ms
+22-Jun-2023 14:58:53.445 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 160.6382 ms
+22-Jun-2023 14:58:53.479 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3653 ms
+22-Jun-2023 14:58:53.480 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1449 ms
+22-Jun-2023 14:58:54.882 +05:30 [INF] HTTP GET /Student/AddStudent/1 responded 200 in 34.9386 ms
+22-Jun-2023 14:58:54.917 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.6158 ms
+22-Jun-2023 14:59:14.337 +05:30 [INF] HTTP POST /Student/AddStudent/1 responded 302 in 16908.8751 ms
+22-Jun-2023 14:59:14.462 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 95.0194 ms
+22-Jun-2023 14:59:14.513 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 2.7714 ms
+22-Jun-2023 14:59:15.976 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1481.1660 ms
+22-Jun-2023 15:16:01.549 +05:30 [INF] HTTP GET / responded 200 in 187.9225 ms
+22-Jun-2023 15:16:01.626 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 5.6425 ms
+22-Jun-2023 15:16:04.572 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 1153.7936 ms
+22-Jun-2023 15:16:04.627 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3662 ms
+22-Jun-2023 15:16:04.628 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 1.6009 ms
+22-Jun-2023 15:16:08.593 +05:30 [INF] HTTP GET /Student/DeleteStudent/2 responded 302 in 244.3662 ms
+22-Jun-2023 15:16:08.625 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 28.1364 ms
+22-Jun-2023 15:16:08.662 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.5379 ms
+22-Jun-2023 15:16:08.662 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.5536 ms
+22-Jun-2023 15:16:11.800 +05:30 [INF] HTTP GET /Student/DeleteStudent/2 responded 302 in 10.0503 ms
+22-Jun-2023 15:16:11.815 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 9.0667 ms
+22-Jun-2023 15:16:11.843 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.8096 ms
+22-Jun-2023 15:16:11.844 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.2823 ms
+22-Jun-2023 15:16:12.570 +05:30 [INF] HTTP GET /Student/DeleteStudent/2 responded 302 in 5.2064 ms
+22-Jun-2023 15:16:12.581 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 5.7285 ms
+22-Jun-2023 15:16:12.607 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2978 ms
+22-Jun-2023 15:16:12.607 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3263 ms
+22-Jun-2023 15:17:42.293 +05:30 [INF] HTTP GET / responded 200 in 177.1146 ms
+22-Jun-2023 15:17:42.358 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 5.8833 ms
+22-Jun-2023 15:17:44.793 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 1062.7255 ms
+22-Jun-2023 15:17:44.822 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.0262 ms
+22-Jun-2023 15:17:44.824 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.7655 ms
+22-Jun-2023 15:18:50.635 +05:30 [INF] HTTP GET / responded 200 in 204.4788 ms
+22-Jun-2023 15:18:50.709 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.3486 ms
+22-Jun-2023 15:18:53.525 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 1535.8744 ms
+22-Jun-2023 15:18:53.595 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3505 ms
+22-Jun-2023 15:18:53.595 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.2250 ms
+22-Jun-2023 15:19:34.536 +05:30 [INF] HTTP GET /Student/DeleteStudent/2 responded 302 in 39802.7589 ms
+22-Jun-2023 15:19:34.630 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 66.0915 ms
+22-Jun-2023 15:19:34.672 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4680 ms
+22-Jun-2023 15:19:36.551 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 1859.3550 ms
+22-Jun-2023 15:20:49.740 +05:30 [INF] HTTP GET / responded 200 in 196.9331 ms
+22-Jun-2023 15:20:49.804 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 4.7840 ms
+22-Jun-2023 15:20:49.808 +05:30 [INF] HTTP GET /css/site.css responded 304 in 0.4889 ms
+22-Jun-2023 15:20:49.812 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.7835 ms
+22-Jun-2023 15:20:49.819 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 0.2501 ms
+22-Jun-2023 15:20:49.819 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 0.2330 ms
+22-Jun-2023 15:20:49.820 +05:30 [INF] HTTP GET /js/site.js responded 304 in 0.1741 ms
+22-Jun-2023 15:20:52.712 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 1006.1577 ms
+22-Jun-2023 15:20:52.768 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 1.9052 ms
+22-Jun-2023 15:20:52.769 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.9335 ms
+22-Jun-2023 15:21:02.691 +05:30 [INF] HTTP GET /Student/DeleteStudent/2 responded 302 in 8568.9735 ms
+22-Jun-2023 15:21:02.769 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 73.8098 ms
+22-Jun-2023 15:21:02.786 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4499 ms
+22-Jun-2023 15:21:02.817 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3125 ms
+22-Jun-2023 15:22:38.514 +05:30 [INF] HTTP GET / responded 200 in 231.7601 ms
+22-Jun-2023 15:22:38.611 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 2.7822 ms
+22-Jun-2023 15:22:43.562 +05:30 [INF] HTTP GET /DeleteStudent/1 responded 404 in 1.0504 ms
+22-Jun-2023 15:22:52.765 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 1020.8926 ms
+22-Jun-2023 15:22:52.791 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.9498 ms
+22-Jun-2023 15:22:52.792 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.1848 ms
+22-Jun-2023 15:23:21.720 +05:30 [INF] HTTP GET /Student/DeleteStudent/1 responded 302 in 23459.1239 ms
+22-Jun-2023 15:23:21.800 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 75.2921 ms
+22-Jun-2023 15:23:21.861 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2950 ms
+22-Jun-2023 15:23:21.864 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.2361 ms
+22-Jun-2023 15:25:18.032 +05:30 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at Practical20.Repository.GenericRepository`1.Delete(T entity)
+   at Practical20.Services.StudentService.DeleteStudent(Students students)
+   at Practical20.Controllers.StudentController.DeleteStudent(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context)
+22-Jun-2023 15:25:18.295 +05:30 [ERR] HTTP GET /Student/DeleteStudent responded 500 in 22700.7926 ms
+22-Jun-2023 15:25:42.868 +05:30 [ERR] System.Exception: Object reference not null Error
+   at Practical20.Controllers.StudentController.DeleteStudent(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context)
+22-Jun-2023 15:25:42.869 +05:30 [ERR] HTTP GET /Student/DeleteStudent responded 500 in 2828.8881 ms
+22-Jun-2023 15:25:42.943 +05:30 [INF] HTTP GET /favicon.ico responded 304 in 5.3018 ms
+22-Jun-2023 15:26:01.176 +05:30 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at Practical20.Repository.GenericRepository`1.Delete(T entity)
+   at Practical20.Services.StudentService.DeleteStudent(Students students)
+   at Practical20.Controllers.StudentController.DeleteStudent(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context)
+22-Jun-2023 15:26:01.177 +05:30 [ERR] HTTP GET /Student/DeleteStudent/5 responded 500 in 14087.6995 ms
+22-Jun-2023 15:26:22.983 +05:30 [ERR] System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at Practical20.Repository.GenericRepository`1.Delete(T entity)
+   at Practical20.Services.StudentService.DeleteStudent(Students students)
+   at Practical20.Controllers.StudentController.DeleteStudent(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Practical20.GlobalExceptions.ExceptionHandlingMiddleware.Invoke(HttpContext context)
+22-Jun-2023 15:26:22.983 +05:30 [ERR] HTTP GET /Student/DeleteStudent/ responded 500 in 13512.1667 ms
