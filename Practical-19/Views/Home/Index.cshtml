@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+if (User.Identity.IsAuthenticated)
+{
+    <h2>Welcome, @User.Identity.Name!</h2>
+        @if (TempData["user"] != null)
+    {
+        <h2>contact ADMIN for assign you role.</h2>
+    }
+}
+else
+{
+    <h2>Welcome, Guest!</h2>
+}
+
+    
+}
+
+ 
