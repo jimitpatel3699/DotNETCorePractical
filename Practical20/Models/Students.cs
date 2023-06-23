@@ -6,7 +6,7 @@ namespace Practical20.Models
     {
 
         [Key]
-        public int StudentId { get; set; }
+        public int? StudentId { get; set; }
 
         [Required]
         public string StudentName { get; set; }

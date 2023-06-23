@@ -38,7 +38,7 @@ namespace Practical20.Controllers
             }
             if (ModelState.IsValid)
             {
-                if(students.StudentId==0)
+                if(students.StudentId==null)
                 {
                     await _studentService.AddStudent(students);
                 }
