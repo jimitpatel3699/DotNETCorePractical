@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Practical18.Data;
 using Practical18.Repository;
 using System;
+using Sentry;
 
 namespace Practical18
 {
@@ -23,6 +24,7 @@ namespace Practical18
             builder.Services.AddScoped<IstudentRepository, StudentRepository>();
 
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
+            SentrySdk.Init("https://e205289547e14e2d8796a26046554cba@o4505436274819072.ingest.sentry.io/4505436294348800");
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -35,7 +37,7 @@ namespace Practical18
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+  
 
             app.MapControllers();
 
