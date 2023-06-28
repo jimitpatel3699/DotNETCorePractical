@@ -3,7 +3,7 @@ using Practical17.Models;
 
 namespace Practical17.Repository
 {
-    public class StudentRepository : IStudentRepository
+    public abstract class StudentRepository : IStudentRepository
     {
         private readonly ApplicationDbContext _context;
         public StudentRepository(ApplicationDbContext context) {  _context = context; }
