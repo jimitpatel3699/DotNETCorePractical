@@ -1,0 +1,11 @@
+﻿C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\Controllers\HelloController.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\Controllers\WeatherForecastController.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\Program.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\WeatherForecast.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\obj\Debug\net6.0\Practical16.GlobalUsings.g.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\obj\Debug\net6.0\Practical16.AssemblyInfo.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\obj\Debug\net6.0\Practical16.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\appsettings.Development.json
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\appsettings.json
+C:\Users\jimit\Desktop\.net\DotNETCorePractical\Practical16\Properties\launchSettings.json

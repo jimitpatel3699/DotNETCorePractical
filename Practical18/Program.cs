@@ -3,6 +3,10 @@ using Practical18.Data;
 using Practical18.Repository;
 using System;
 using Sentry;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Practical18.Services.Health;
+using HealthChecks.UI.Client;
 
 namespace Practical18
 {
@@ -22,7 +26,9 @@ namespace Practical18
                 builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IstudentRepository, StudentRepository>();
-
+            //add api health check
+            builder.Services.AddHealthChecks()
+                .AddCheck<ApiHealthCheck>("StudentAPICheck",tags: new string[] {"StudentAPI"}); 
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
             SentrySdk.Init("https://e205289547e14e2d8796a26046554cba@o4505436274819072.ingest.sentry.io/4505436294348800");
             var app = builder.Build();
@@ -33,13 +39,20 @@ namespace Practical18
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseRouting();
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-  
-
-            app.MapControllers();
+            app.UseEndpoints(endpoints =>
+            {
+                // Map health check endpoint
+                endpoints.MapHealthChecks("/health",new HealthCheckOptions()
+                {
+                    Predicate = _=> true,
+                    ResponseWriter=UIResponseWriter.WriteHealthCheckUIResponse
+                });
+                endpoints.MapControllers();
+            });
+            //app.MapControllers();
 
             app.Run();
         }
